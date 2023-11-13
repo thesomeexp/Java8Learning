@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.someexp.modules.test.mapper.UserMapper">
+
+    <select id="get" resultType="com.someexp.modules.test.domain.entity.User">
+        SELECT * FROM user
+        WHERE id = #{id} FOR UPDATE
+    </select>
+
+    <update id="update" parameterType="com.someexp.modules.test.domain.entity.User">
+        UPDATE user
+        SET name = #{name}
+        WHERE id = #{id}
+    </update>
+
+</mapper>

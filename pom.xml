@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.someexp</groupId>
+    <artifactId>Java8Learning</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.compilerVersion>8</maven.compiler.compilerVersion>
+    </properties>
+
+    <modules>
+        <module>MySQLConnect</module>
+        <module>MyBatisLearn</module>
+        <module>Building-a-RESTful-Web-Service</module>
+        <module>Scheduling-Tasks</module>
+        <module>Consuming-a-RESTful-Web-Service</module>
+        <module>Accessing-Relational-Data-using-JDBC-with-Spring</module>
+        <module>Uploading-Files</module>
+        <module>OptionalLearn</module>
+        <module>JUnitLearn</module>
+        <module>StreamLearn</module>
+        <module>Log4j2</module>
+        <module>ExceptionLearn</module>
+        <module>SpringLearn</module>
+        <module>SpringSecurity</module>
+        <module>JavaLearn</module>
+        <module>MySQLMVCC</module>
+        <module>AccessingDataWithJPA</module>
+        <module>Main</module>
+        <module>Utils</module>
+        <module>Messaging-with-RabbitMQ</module>
+        <module>RabbitMQ-Tutorial</module>
+        <module>Introduction-to-the-Java-8-DateTimeAPI</module>
+        <module>Crypto</module>
+        <module>Thread</module>
+        <module>JvmLearn</module>
+    </modules>
+
+
+</project>
